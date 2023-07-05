@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1f1f1f"
+        android:orientation="vertical"
+        tools:context=".SplashActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <View
+                android:id="@+id/first_line"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white" />
+
+            <View
+                android:id="@+id/second_line"
+                android:layout_width="20dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_toRightOf="@+id/first_line"
+                android:background="@color/red" />
+
+            <View
+                android:id="@+id/third_line"
+                android:layout_width="20dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+                android:layout_toRightOf="@+id/second_line"
+                android:background="@color/green" />
+
+            <View
+                android:id="@+id/fourth_line"
+                android:layout_width="20dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="8dp"
+                android:layout_toRightOf="@+id/third_line"
+                android:background="@color/blue" />
+
+            <View
+                android:id="@+id/fifth_line"
+                android:layout_width="20dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_toRightOf="@+id/fourth_line"
+                android:background="@color/green" />
+
+            <View
+                android:id="@+id/sixth_line"
+                android:layout_width="20dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_toRightOf="@+id/fifth_line"
+                android:background="@color/red" />
+
+            <View
+                android:id="@+id/seventh_line"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_toRightOf="@+id/sixth_line"
+                android:background="@color/white" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/arbutus"
+                android:text="A"
+                android:textColor="@color/white"
+                android:textSize="70sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/tag_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="300dp"
+                android:fontFamily="@font/alex_brush"
+                android:text="Welcome to the dark world"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:background="@color/green"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>
